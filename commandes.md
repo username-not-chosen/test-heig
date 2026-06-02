@@ -26,6 +26,8 @@ git push origin ma-branche				# Envoyer sa branche sur GitHub
 ## Post merge (suppression branche)
 
 ```
+git checkout main               # Changer sur main
 git branch -d ma-branche				# Supprimer une branche locale
 git push origin --delete ma-branche  	# Supprimer une branche distante
+git pull                              # Se mettre à jour sur main
 ```
